@@ -51,7 +51,7 @@ export default {
       };
       const token = localStorage.getItem('access_token');
 
-      const response = await axios.post('http://127.0.0.1:8000/clients/create',
+      const response = await axios.post('/clients/create',
         data, {
           headers: {
             'Content-Type': 'application/json',
@@ -63,7 +63,7 @@ export default {
     },
     async getClients() {
       const token = localStorage.getItem('access_token')
-      const response = await axios.get('http://127.0.0.1:8000/clients/', 
+      const response = await axios.get('/clients/', 
         {
           headers: {
               Authorization: `Bearer ${token}`

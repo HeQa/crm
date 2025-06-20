@@ -123,7 +123,7 @@ export default {
       };
       const token = localStorage.getItem('access_token');
 
-      const response = await axios.post('http://127.0.0.1:8000/scripts/create',
+      const response = await axios.post('/scripts/create',
         data, {
           headers: {
             'Content-Type': 'application/json',
@@ -137,7 +137,7 @@ export default {
       this.error = null;
       const token = localStorage.getItem('access_token');
       try {
-        const response = await axios.get('http://127.0.0.1:8000/scripts/start',
+        const response = await axios.get('/scripts/start',
         {
           headers: {
             'Content-Type': 'application/json',
