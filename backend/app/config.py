@@ -12,8 +12,8 @@ def find_env_file():
             return env_path
     return None
 class Settings(BaseSettings):
-    APP_HOST: str
-    APP_PORT: int
+    APP_HOST: str = "0.0.0.0"
+    APP_PORT: int = 8000
     APP_URL: str
 
     DB_HOST: str
