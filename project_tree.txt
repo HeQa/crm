@@ -1,0 +1,91 @@
+Дерево каталогов проекта: C:\Users\User\Downloads\CRM_sellers_script
+CRM_sellers_script/
+├── PatchTree.py
+├── project_tree.txt
+├── pyproject.toml
+├── pytest.ini
+├── run.py
+└── run_migration.py
+├── app/
+│   ├── __init__.py
+│   ├── config.py
+│   └── main.py
+│   ├── auth/
+│   │   ├── dependencies.py
+│   │   └── middleware.py
+│   │   ├── __pycache__/
+│   │   │   └── dependencies.cpython-310.pyc
+│   ├── database/
+│   │   ├── db.py
+│   │   └── db_tool.py
+│   │   ├── models/
+│   │   │   ├── __init__.py
+│   │   │   ├── calls_db.py
+│   │   │   ├── client_db.py
+│   │   │   ├── events_db.py
+│   │   │   ├── script_db.py
+│   │   │   ├── service_data_db.py
+│   │   │   └── user.py
+│   │   │   ├── __pycache__/
+│   │   │   │   ├── __init__.cpython-310.pyc
+│   │   │   │   ├── calls_db.cpython-310.pyc
+│   │   │   │   ├── client_db.cpython-310.pyc
+│   │   │   │   ├── events_db.cpython-310.pyc
+│   │   │   │   ├── script_db.cpython-310.pyc
+│   │   │   │   ├── service_data_db.cpython-310.pyc
+│   │   │   │   └── user.cpython-310.pyc
+│   │   ├── __pycache__/
+│   │   │   └── db.cpython-310.pyc
+│   ├── routes/
+│   │   ├── __init__.py
+│   │   ├── auth.py
+│   │   ├── call_router.py
+│   │   ├── clients_router.py
+│   │   ├── employee_router.py
+│   │   ├── event_roters.py
+│   │   └── script_router.py
+│   │   ├── __pycache__/
+│   │   │   ├── __init__.cpython-310.pyc
+│   │   │   ├── auth.cpython-310.pyc
+│   │   │   ├── call_router.cpython-310.pyc
+│   │   │   ├── clients_router.cpython-310.pyc
+│   │   │   ├── employee_router.cpython-310.pyc
+│   │   │   ├── event_roters.cpython-310.pyc
+│   │   │   └── script_router.cpython-310.pyc
+│   ├── schemas/
+│   │   ├── __init__.py
+│   │   ├── auth.py
+│   │   ├── call_schema.py
+│   │   ├── client_schema.py
+│   │   ├── employee_schema.py
+│   │   ├── event_schema.py
+│   │   └── script_schema.py
+│   │   ├── __pycache__/
+│   │   │   ├── __init__.cpython-310.pyc
+│   │   │   ├── auth.cpython-310.pyc
+│   │   │   ├── call_schema.cpython-310.pyc
+│   │   │   ├── client_schema.cpython-310.pyc
+│   │   │   ├── employee_schema.cpython-310.pyc
+│   │   │   ├── event_schema.cpython-310.pyc
+│   │   │   └── script_schema.cpython-310.pyc
+│   ├── services/
+│   │   ├── auth.py
+│   │   ├── client_service.py
+│   │   ├── employees_service.py
+│   │   ├── event_service.py
+│   │   └── script_service.py
+│   │   ├── __pycache__/
+│   │   │   ├── auth.cpython-310.pyc
+│   │   │   ├── client_service.cpython-310.pyc
+│   │   │   ├── employees_service.cpython-310.pyc
+│   │   │   ├── event_service.cpython-310.pyc
+│   │   │   └── script_service.cpython-310.pyc
+│   ├── __pycache__/
+│   │   ├── __init__.cpython-310.pyc
+│   │   ├── config.cpython-310.pyc
+│   │   └── main.cpython-310.pyc
+├── migrations/
+│   └── client_statuses.py
+│   ├── app/
+│   │   └── 0_20250617172127_init.py
+├── TZ/
