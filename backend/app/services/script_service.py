@@ -46,7 +46,7 @@ async def get_scripts_node_back(script: ScriptRequest) -> ScriptNodeRequest:
 async def script_create(script: ScriptCreate):
     await Scripts.create(
                                     name=script.name,
-                                    description=script.description
+                                    description=script.description,
                                 )
 
     return await get_scripts_all()

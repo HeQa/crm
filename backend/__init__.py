@@ -4,7 +4,7 @@ from app.schemas.event_schema import *
 from app.schemas.call_schema import *
 from app.schemas.auth import *
 from app.schemas.script_schema import *
-from app.schemas.buttons_schema import *
+
 __all__ = ['EmployeeCreate', 'EmployeeLogin',
            'ClientCreate', 'ClientResponse',
            'EventCreate', 'EventUpdate', 'EventDelete', 'EventRespone',

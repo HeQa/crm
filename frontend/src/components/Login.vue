@@ -169,7 +169,7 @@ export default {
         params.append('username', this.loginForm.email);
         params.append('password', this.loginForm.password);
 
-        const response = await axios.post('/auth/login', 
+        const response = await axios.post('https://92.100.127.109/auth/login', 
           params, {
             headers: {
               'Content-Type': 'application/x-www-form-urlencoded'
@@ -216,7 +216,7 @@ export default {
       }
 
       try {
-        const response = await axios.post('/auth/register', 
+        const response = await axios.post('https://92.100.127.109/auth/register', 
           {
             full_name: this.registerForm.name,
             email: this.registerForm.email,

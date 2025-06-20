@@ -46,7 +46,7 @@ export default {
     async GetEmployees() {
       const token = localStorage.getItem('access_token');
 
-      const response = await axios.get('/employee/',
+      const response = await axios.get('https://92.100.127.109/employee/',
         {
           headers: {
             'Authorization': `Bearer ${token}`

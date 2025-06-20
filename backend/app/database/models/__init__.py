@@ -4,7 +4,7 @@ from app.database.models.events_db import *
 from app.database.models.script_db import *
 from app.database.models.service_data_db import *
 from app.database.models.client_db import *
-
+from app.database.models.buttons_db import *
 
 __all__ = ["Employees", 'Clients',
            'ClientStatuses', 'ClientCard',
@@ -12,6 +12,5 @@ __all__ = ["Employees", 'Clients',
            'Events',
            'Scripts', 'ScriptsText',
            'Cities', 'Programs', 'Universities', 'Faculties', 'ActionLogs',
-
-
+            'Button'
            ]

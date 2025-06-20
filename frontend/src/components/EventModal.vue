@@ -75,7 +75,7 @@ export default {
           status: 'pending'
         };
         
-        const response = await axios.post('/api/reminders', payload, {
+        const response = await axios.post('https://92.100.127.109/api/reminders', payload, {
           headers: {
             'Content-Type': 'application/json',
             'Authorization': `Bearer ${localStorage.getItem('access_token')}`

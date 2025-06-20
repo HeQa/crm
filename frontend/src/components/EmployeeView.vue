@@ -385,7 +385,7 @@ export default {
     async getClients() {
       const token = localStorage.getItem('access_token');
       const response = await axios.get(
-        '/clients/',
+        'https://92.100.127.109/clients/',
         {
           headers: {
             'Content-Type': 'application/json',
@@ -404,7 +404,7 @@ export default {
       const token = localStorage.getItem('access_token');
       console.log(client)
       const response = await axios.post(
-        '/clients/sync_clients',
+        'https://92.100.127.109/clients/sync_clients',
         {
           clients: [client]
         },

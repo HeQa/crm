@@ -6,7 +6,7 @@ from app.routes.script_router import router as script_router
 from app.routes.event_roters import router as event_roters
 from app.routes.clients_router import router as clients_router
 from app.routes.employee_router import router as employee_router
-
+from app.routes.buttons_router import router as buttons_router
 
 
 
@@ -19,3 +19,4 @@ router.include_router(script_router)
 router.include_router(event_roters)
 router.include_router(clients_router)
 router.include_router(employee_router)
+router.include_router(buttons_router)
