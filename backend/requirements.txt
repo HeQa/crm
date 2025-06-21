@@ -8,6 +8,6 @@ pydantic
 pydantic_settings
 tortoise-orm
 pydantic[email]
-passlib
 asyncpg
-bcrypt
+bcrypt==4.1.2
+passlib[bcrypt]==1.7.4
