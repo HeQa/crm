@@ -6,3 +6,4 @@ asyncio
 python-jose
 pydantic
 pydantic_settings
+tortoise.exceptions
