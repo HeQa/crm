@@ -8,3 +8,4 @@ pydantic
 pydantic_settings
 tortoise-orm
 pydantic[email]
+passlib
