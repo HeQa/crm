@@ -37,7 +37,6 @@ class Settings(BaseSettings):
     class Config:
         env_file = find_env_file() or '.env'
 
-#
 config = Settings()
 
 TORTOISE_ORM = {
