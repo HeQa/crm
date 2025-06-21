@@ -10,3 +10,4 @@ tortoise-orm
 pydantic[email]
 passlib
 asyncpg
+bcrypt
